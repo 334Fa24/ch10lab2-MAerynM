@@ -2,7 +2,7 @@
 <!-- 
 	Student Name: Maria Cruz
 	File Name: gallery.html
-	Today's Date: July 27, 2021
+	Today's Date: sep. 24 2024
  -->
 <html lang="en">
 <head>
@@ -20,6 +20,20 @@
 
     <div id="wrapper">
     
+            <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="partnership.html">Partnersip</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a class="nav-icon" onclick="hamburger()">
+                <div id="icon">&#9776;</div>
+            </a>
+        </nav>
         <header>
             <div class="tab-desk">
               <a href="index.html"><img src="images/baby-hawk.jpg" alt="rescued baby hawk"></a>
@@ -30,7 +44,7 @@
             </div>
         </header>
 
-        <nav>
+        <nav class="tab-desk">
             <ul>
                 <li><a href="index.html">Home</a></li>  
                 <li><a href="about.html">About Us</a></li> 
@@ -116,6 +130,8 @@
         </footer>
         
     </div>
-	
+    
+	<script src="scripts/script.js"></script>
+    
 </body>
 </html>
